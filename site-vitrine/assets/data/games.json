@@ -6,40 +6,51 @@
     "genero": ["Zombie", "Cooperativo", "Campanha", "FPS"],
     "plataformas": ["PC", "Playstation", "XBOX"],
     "capa": "assets/images/capas/Left-4-Dead-2.jpg",
-    "trailer_id": "",
+    "trailer_id": "550",
     "status": {
       "jogado": true,
       "nota_pessoal": 10,
       "comentario": "Um dos melhores jogos de Zombies que já vi. Fator replay ao máximo."
      },
-    "links": { [
+    "links": { 
       "steam": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
       "epic": null,
-      "site_oficial": "https://www.l4d.com/game.html",
+      "site_oficial": "https://www.l4d.com/game.html"
     },
     "media": {
        "screenshots": [
         "assets/images/screenshots/..",
-        "assets/images/screenshost/..",
+        "assets/images/screenshost/.."
       ]
     },
     "guia_extra": "https://steamcommunity.com/sharedfiles/filedetails/?id=3337695156"
-   }
+   },
+  
   {
     "id": "Warhammer-40k-Boltgun",
     "titulo": "Warhammer 40,000: Boltgun",
     "genero": ["Boomer-shooter", "retro", "FPS"],
     "plataformas": ["PC", "Playstation", "XBOX"], 
     "capa": "assets/images/capas/Warhammeer-40k-Boltgun.jpg",
-    "trailer_id": "",
+    "trailer_id": "2005010",
     "status": {
       "jogado": false,
       "nota_pessoal": null,
-      "comentario": "Interessado, mas ainda não joguei",
+      "comentario": "Interessado, mas ainda não joguei"
    },
     "links": {
        "steam": "https://store.steampowered.com/app/2005010/Warhammer_40000_Boltgun",
        "epic": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://store.epicgames.com/pt-BR/p/boltgun-b1cb36&ved=2ahUKEwip9IqhgaiUAxWurpUCHQrwD8AQFnoECB8QAQ&usg=AOvVaw1u3SSRos5Xv4Q_k9bhSK2w",
-       "site_oficial": null,
-  ]
-}
+       "site_oficial": null
+    },
+    "media": {
+      "screenshots":[
+        "assets/images/screenshost/..",
+        "assets/images/screenshost/.."
+      ]
+    },
+      "guia_extra":""
+    }
+    ]
+  }
+
