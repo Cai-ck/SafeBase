@@ -1,24 +1,47 @@
-<!DOCTYPE HTML>
-<html lang = "pt-br">
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
- <meta charset="utf-8" />
- <meta name="viewport" content="width=device-width" />
- <link href="assets/css/styles.css" rel="stylesheet" />
- <title>Home SafeBase</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link href="assets/css/styles.css" rel="stylesheet" />
+
+  <title>Home SafeBase</title>
 </head>
 
 <body>
 
 <header>
- <nav>
-   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="pages/biblioteca.html">Library</a></li>
-    <li><a href="pages/sobre.html">Disclaimer</a></li>
-   </ul>
- </nav> 
+  <nav class="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="pages/biblioteca.html">Library</a>
+    <a href="pages/sobre.html">Disclaimer</a>
+    <a href="pages/favoritos.html">Favorites</a>
+    <a href="pages/wishlist.html">Wishlist</a>
+  </nav>
 </header>
 
-<div id="game-list"></div>
+<main>
 
+  <section class="hero-banner">
+
+    <h1>SafeBase</h1>
+    <p>Biblioteca pessoal de jogos.</p>
+
+  </section>
+
+  <section class="games-section">
+
+    <h2>Jogos</h2>
+
+    <div id="games-container"></div>
+
+  </section>
+
+</main>
+
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
