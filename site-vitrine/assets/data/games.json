@@ -1,56 +1,109 @@
-{ 
-  "jogos": [
-   {
-    "id": "left-4-dead-2",
-    "titulo": "Left 4 Dead 2",
-    "genero": ["Zombie", "Cooperativo", "Campanha", "FPS"],
-    "plataformas": ["PC", "Playstation", "XBOX"],
-    "capa": "assets/images/capas/Left-4-Dead-2.jpg",
-    "trailer_id": "550",
-    "status": {
-      "jogado": true,
-      "nota_pessoal": 10,
-      "comentario": "Um dos melhores jogos de Zombies que já vi. Fator replay ao máximo."
-     },
-    "links": { 
-      "steam": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
-      "epic": null,
-      "site_oficial": "https://www.l4d.com/game.html"
-    },
-    "media": {
-       "screenshots": [
-        "assets/images/screenshots/..",
-        "assets/images/screenshost/.."
-      ]
-    },
-    "guia_extra": "https://steamcommunity.com/sharedfiles/filedetails/?id=3337695156"
-   },
-  
-  {
-    "id": "Warhammer-40k-Boltgun",
-    "titulo": "Warhammer 40,000: Boltgun",
-    "genero": ["Boomer-shooter", "retro", "FPS"],
-    "plataformas": ["PC", "Playstation", "XBOX"], 
-    "capa": "assets/images/capas/Warhammeer-40k-Boltgun.jpg",
-    "trailer_id": "2005010",
-    "status": {
-      "jogado": false,
-      "nota_pessoal": null,
-      "comentario": "Interessado, mas ainda não joguei"
-   },
-    "links": {
-       "steam": "https://store.steampowered.com/app/2005010/Warhammer_40000_Boltgun",
-       "epic": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://store.epicgames.com/pt-BR/p/boltgun-b1cb36&ved=2ahUKEwip9IqhgaiUAxWurpUCHQrwD8AQFnoECB8QAQ&usg=AOvVaw1u3SSRos5Xv4Q_k9bhSK2w",
-       "site_oficial": null
-    },
-    "media": {
-      "screenshots":[
-        "assets/images/screenshost/..",
-        "assets/images/screenshost/.."
-      ]
-    },
-      "guia_extra":""
-    }
-    ]
-  }
+{
+  "games": [
+    {
+      "id": "left-4-dead-2",
 
+      "title": "Left 4 Dead 2",
+
+      "genres": [
+        "Zombie",
+        "Co-op",
+        "Campaign",
+        "FPS"
+      ],
+
+      "platforms": [
+        "PC",
+        "Playstation",
+        "Xbox"
+      ],
+
+      "cover": "./assets/images/capas/Left4Dead2.jpg",
+
+      "banner": "./assets/images/banners/l4d2-banner.jpg",
+
+      "steam_appid": "550",
+
+      "status": {
+        "played": true,
+        "favorite": true,
+        "finished": true,
+        "score": 10,
+
+        "review": "Um dos melhores jogos de zombies já feitos."
+      },
+
+      "links": {
+        "steam": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
+        "epic": null,
+        "official": "https://www.l4d.com/game.html"
+      },
+
+      "media": {
+        "screenshots": [
+          "./assets/images/screenshots/l4d2-1.jpg",
+          "./assets/images/screenshots/l4d2-2.jpg"
+        ],
+
+        "gameplay_video": null
+      },
+
+      "extra_guide": "https://steamcommunity.com/sharedfiles/filedetails/?id=3337695156"
+    },
+    
+    {
+    "id": "dead-cells",
+    "title": "Dead Cells",
+    "genres": [
+      "Roguelike",
+      "Action",
+      "Adventure",
+      "Metroidvania"
+    ],
+
+    "platforms": [
+      "PC",
+      "Playstation",
+      "Xbox",
+      "Nintendo Switch"
+    ],
+
+    "cover": "./assets/images/capas/Dead_cells_capa.jpg",
+
+      "banner": "./assets/images/banners/banner-dead-cells.jpg",
+
+      "steam_appid": "588650",
+
+      "status": {
+        "played": true,
+        "favorite": true,
+        "finished": true,
+        "score": 10,
+
+        "review": "Roguelike com jogabilidade fluida e viciante!"
+      },
+
+      "links": {
+        "steam": "https://store.steampowered.com/app/588650/Dead_Cells/",
+        "epic": null,
+        "official": "https://dead-cells.com/"
+      },
+
+      "media": {
+        "screenshots": [
+          "./assets/images/screenshots/dead-cells-1.jpg",
+          "./assets/images/screenshots/dead-cells-2.jpg"
+        ],
+
+        "gameplay_video": null
+      },
+
+      "extra_guide": null
+
+    }
+
+    
+      
+    
+  ]
+}
