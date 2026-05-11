@@ -100,10 +100,55 @@
 
       "extra_guide": null
 
-    }
+    },
 
-    
+    {
+      "id": "killing-floor-1",
+      "title": "Killing Floor 1",
+      "genres": [
+        "Co-op",
+        "FPS",
+        "Horror",
+        "Survival"
+      ],
+
+      "platforms": [
+        "PC",
+        "Playstation",
+        "Xbox"
+      ],
+
+      "cover": "./assets/images/capas/Killing_Floor_1_capa.jpg",
+       "banner": "./assets/images/banners/banner-Killing-Floor-1.jpg",
       
-    
+       "steam_appid": "1250",
+      
+     "status": {
+        "played": true,
+        "favorite": true,
+        "finished": true,
+        "score": 9,
+
+        "review": "Ótimo jogo de Waves, com uma variedade de armas e inimigos."
+      },
+
+      "links": {
+        "steam": "https://store.steampowered.com/app/1250/Killing_Floor/",
+        "epic": null,
+        "official": "https://www.killingfloor.com/"
+      },
+
+      "media": {
+        "screenshots": [
+          "./assets/images/screenshots/killing-floor-1-1.jpg",
+          "./assets/images/screenshots/killing-floor-1-2.jpg"
+        ],
+
+        "gameplay_video": null
+      },
+
+      "extra_guide": null
+    }
+     
   ]
 }
