@@ -25,6 +25,7 @@ html {
 
 .nav-menu {
   border-radius: 2px;
+  font-weight: bold;
   background-color: var(--primary-color);
   display: flex;
   padding: 20px;
@@ -36,7 +37,6 @@ html {
 
 .nav-menu .logo {
   font-size: 24px;
-  font-weight: bold;
   color: white;
   justify-content: left;
   padding: 0 10px;
@@ -45,7 +45,7 @@ html {
 .nav-menu a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .nav-menu a:hover {
@@ -54,7 +54,9 @@ html {
 
 .favorite-games {
   color: white;
-  background-color:#8d15c5;
+  background-color: #51006c;
+  border: 2px solid #9d21f0; 
+  padding: 10px;
   border-radius: 10px;
   text-align: center;
 }
@@ -132,7 +134,6 @@ body {
 
 }
 
-
 .hero-banner p {
   font-size: 24px;
   text-align: center;
@@ -143,6 +144,7 @@ body {
   color: transparent;
 
 }
+
 .games-section {
   align-items: center;
   justify-content: center;
@@ -151,17 +153,22 @@ body {
 
 .games-section h2 {
   color: white;
-  background-color:#8d15c5;
+  background-color:#3a1e43;
   padding: 10px;
   border-radius: 10px;
-  gap: 20px;
+  gap: 30px;
 }
 
 #games-container {
   display: grid;
+  
+  border-radius: 10px;
+  border: 2px solid hsl(281, 100%, 74%);
+  background-size: cover;
+  background-color: #3a1e43;
   grid-template-columns:
-    repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+    repeat(auto-fill, minmax(225px, 1fr));
+    gap: 40px;
 }
 
 .game-card{
