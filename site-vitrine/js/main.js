@@ -14,7 +14,7 @@ fetch("./assets/data/games.json")
 
         <div class="game-card">
 
-          <img src="${game.cover}" alt="${game.title}">
+          <img src="${game.cover}" alt="${game.title}" onclick="irGameDetails()">
 
           <div class="game-info">
 

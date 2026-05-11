@@ -9,7 +9,8 @@
         "Zombie",
         "Co-op",
         "Campaign",
-        "FPS"
+        "FPS",
+        "+"
       ],
 
       "platforms": [
@@ -58,7 +59,8 @@
       "Roguelike",
       "Action",
       "Adventure",
-      "Metroidvania"
+      "Metroidvania",
+      "+"
     ],
 
     "platforms": [
@@ -77,7 +79,7 @@
       "status": {
         "played": true,
         "favorite": true,
-        "finished": true,
+        "finished": false,
         "score": 10,
 
         "review": "Roguelike com jogabilidade fluida e viciante!"
@@ -109,7 +111,8 @@
         "Co-op",
         "FPS",
         "Horror",
-        "Survival"
+        "Survival",
+        "+"
       ],
 
       "platforms": [
@@ -126,7 +129,7 @@
      "status": {
         "played": true,
         "favorite": true,
-        "finished": true,
+        "finished": false,
         "score": 9,
 
         "review": "Ótimo jogo de Waves, com uma variedade de armas e inimigos."
@@ -148,7 +151,154 @@
       },
 
       "extra_guide": null
+    },
+
+    {
+      "id": "warhammer-vermintide-2",
+      "title": "Warhammer Vermintide 2",
+      "genres": [
+        "Co-op",
+        "PvE",
+        "Adulto",
+        "HaS",
+        "+"
+      ],
+
+      "platforms": [
+        "PC",
+        "Playstation",
+        "Xbox"
+      ],
+
+      "cover": "./assets/images/capas/warhammer_vermintide_2_capa.jpg",
+       "banner": "./assets/images/banners/banner-warhammer-vermintide-2.jpg",
+      
+       "steam_appid": "552500",
+      
+     "status": {
+        "played": true,
+        "favorite": true,
+        "finished": true,
+        "score": 10,
+
+        "review": "PvE insano, sangue e tripa pra tudo que lado."
+      },
+
+      "links": {
+        "steam": "https://store.steampowered.com/app/552500/Warhammer_Vermintide_2/",
+        "epic": null,
+        "official": "https://www.vermintide.com/"
+      },
+
+      "media": {
+        "screenshots": [
+          "./assets/images/screenshots/warhammer-vermintide-2-1.jpg",
+          "./assets/images/screenshots/warhammer-vermintide-2-2.jpg"
+        ],
+
+        "gameplay_video": null
+      },
+
+      "extra_guide": null
+    },
+
+      {
+      "id": "Dark-Souls-3",
+      "title": "Dark Souls 3",
+      "genres": [
+        "SoulsLike",
+        "PvP",
+        "RPG",
+        "Co-op",
+        "+"
+      ],
+
+      "platforms": [
+        "PC",
+        "Playstation",
+        "Xbox"
+      ],
+
+      "cover": "./assets/images/capas/Dark_Souls_3_capa.jpg",
+       "banner": "./assets/images/banners/banner-dark-souls-3.jpg",
+      
+       "steam_appid": "374320",
+      
+     "status": {
+        "played": true,
+        "favorite": true,
+        "finished": true,
+        "score": 8.9,
+
+        "review": "Soulslike mais agitado e com combate incrivel."
+      },
+
+      "links": {
+        "steam": "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
+        "epic": null,
+        "official": "https://www.bandainamcoent.com/games/dark-souls-iii"
+      },
+
+      "media": {
+        "screenshots": [
+          "./assets/images/screenshots/dark-souls-3-1.jpg",
+          "./assets/images/screenshots/dark-souls-3-2.jpg"
+        ],
+
+        "gameplay_video": null
+      },
+
+      "extra_guide": null
+    },
+
+    {
+      "id": "devil-may-cry-5",
+      "title": "Devil May Cry 5",
+      "genres": [
+        "Hack-and-Slash",
+        "Campaign",
+        "Dopamina",
+        "Best-Music",
+        "+"
+      ],
+
+      "platforms": [
+        "PC",
+        "Playstation",
+        "Xbox"
+      ],
+
+      "cover": "./assets/images/capas/Devil_May_Cry_5_capa.jpg",
+       "banner": "./assets/images/banners/banner-devil-may-cry-5.jpg",
+      
+       "steam_appid": "601150",
+      
+     "status": {
+        "played": true,
+        "favorite": true,
+        "finished": true,
+        "score": 10,
+
+        "review": "Hack and Slash insano, combate fluido e viciante"
+      },
+
+      "links": {
+        "steam": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/",
+        "epic": null,
+        "official": "https://www.bandainamcoent.com/games/dark-souls-iii"
+      },
+
+      "media": {
+        "screenshots": [
+          "./assets/images/screenshots/devil-may-cry-5-1.jpg",
+          "./assets/images/screenshots/devil-may-cry-5-2.jpg"
+        ],
+
+        "gameplay_video": null
+      },
+
+      "extra_guide": null
     }
-     
+
   ]
 }
