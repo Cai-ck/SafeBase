@@ -10,7 +10,7 @@
 
  Este projeto faz parte de um estudo dirigido focado em Arquitetura de Software Front-end, com o objetivo de criar um ecossistema escalável que permita futuras integrações com ambientes Desktop e Mobile.
 
- ## 🛠️ Arquitetura e Funcionalidades
+ ## Arquitetura e Funcionalidades
  O sistema foi projetado seguindo o princípio de separação de responsabilidades, utilizando uma estrutura de dados desacoplada para facilitar a manutenção. 
 
   - **Landing Page (Home):** Dashboard principal com exibição dinâmica de títulos em destaque, segmentados por estados (ex: Último zerado, Em progresso ou Favoritos).
@@ -23,7 +23,7 @@
 
  Data Bank: Repositório de informações técnicas, reviews e guias de gameplay.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
  A stack tecnológica foi escolhida para consolidar os fundamentos do desenvolvimento web moderno:   
  
  - **HTML5:** Estruturação semântica de dados.   
