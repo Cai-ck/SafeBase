@@ -4,6 +4,8 @@
       "id": "left-4-dead-2",
 
       "title": "Left 4 Dead 2",
+      
+      "link": "./pages/gamesPages/left4dead2.html",
 
       "genres": [
         "Zombie",
@@ -54,7 +56,11 @@
     
     {
     "id": "dead-cells",
+
     "title": "Dead Cells",
+
+    "link": "./pages/gamesPages/deadcells.html",
+
     "genres": [
       "Roguelike",
       "Action",
@@ -106,7 +112,11 @@
 
     {
       "id": "killing-floor-1",
+
       "title": "Killing Floor 1",
+
+      "link": "./pages/gamesPages/killingfloor1.html",
+
       "genres": [
         "Co-op",
         "FPS",
@@ -155,7 +165,11 @@
 
     {
       "id": "warhammer-vermintide-2",
+
       "title": "Warhammer Vermintide 2",
+
+      "link": "./pages/gamesPages/warhammervermintide2.html",
+
       "genres": [
         "Co-op",
         "PvE",
@@ -204,7 +218,11 @@
 
       {
       "id": "Dark-Souls-3",
+
       "title": "Dark Souls 3",
+
+      "link": "./pages/gamesPages/darksouls3.html",
+
       "genres": [
         "SoulsLike",
         "PvP",
@@ -253,7 +271,11 @@
 
     {
       "id": "devil-may-cry-5",
+
       "title": "Devil May Cry 5",
+
+      "link": "./pages/gamesPages/devilmaycry5.html",
+
       "genres": [
         "Hack-and-Slash",
         "Campaign",
@@ -285,7 +307,7 @@
       "links": {
         "steam": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/",
         "epic": null,
-        "official": "https://www.bandainamcoent.com/games/dark-souls-iii"
+        "official": "https://www.devilmaycry.com/5/"
       },
 
       "media": {
