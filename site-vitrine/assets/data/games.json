@@ -5,7 +5,9 @@
 
       "title": "Left 4 Dead 2",
       
-      "link": "./pages/gamesPages/left4dead2.html",
+      "link": "../../pages/gamesPages/left4dead2.html",
+
+      "description": "Jogo de Zumbis em Primeira Pessoa, onde você joga junto com mais 4 pessoas e tentam sobreviver a campanhas desafiadoras, com infectados comuns e especiais que tentaram te impedir de conquista seu objetivo de escapar desse inferno.",
 
       "genres": [
         "Zombie",
@@ -23,7 +25,7 @@
 
       "cover": "./assets/images/capas/Left4Dead2.jpg",
 
-      "banner": "./assets/images/banners/l4d2-banner.jpg",
+      "banner": "./assets/images/banners/banner-l4d2.jpg",
 
       "steam_appid": "550",
 
