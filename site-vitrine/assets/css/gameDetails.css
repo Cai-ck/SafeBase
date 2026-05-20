@@ -11,7 +11,7 @@
 }
 
 html {
- background-color: var(--primary-color);
+ background-color: #281030;
 }
 
 .header{
@@ -98,12 +98,31 @@ html {
   border-radius: 5px;
 }
 
+.p-genres {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.p-genres span {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.p-genres span:hover {
+  background: grey;
+  cursor: pointer;
+}
+
 .review{
   background-color: rgb(24, 0, 24);
-  width:650px;
+  width:450px;
   word-wrap: break-word;
   color: white;
-  padding: 10px;
+  padding: 20px 20px;
   border-radius: 5px;
 }
 
@@ -112,10 +131,10 @@ html {
   align-items: center;
   justify-content: space-between;
   background-color: linear-gradient(135deg, #180018, #3a1e43);
-  padding: 24px 32px;
+  padding: 15px 32px;
   border-radius: 12px;
   gap: 40px;
-  max-width: 400px;
+  max-width: 350px;
   margin-top: 20px;
 }
 
@@ -135,7 +154,7 @@ html {
 .badge{
   display: inline-block;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 8px;
   font-size: 0.9rem;
   font-weight: bold;
@@ -151,18 +170,15 @@ html {
 
 .badge-played {
   background-color: #4CAF50;
-  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
 }
 
 .badge-favorite {
   background-color: #FF5722;
   color: #000;
-  box-shadow: 0 4px 8px rgba(255, 87, 34, 0.3);
 }
 
 .badge-finished {
   background-color: #2196F3;
-  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
 }
 
 .score-circle{
@@ -182,7 +198,7 @@ html {
 .score-high {
    background-color: #4CAF50;
    border-color: #388E3C;
-   box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+   box-shadow: 0 4px 8px rgba(42, 175, 80, 0.3);
 }
 
 .score-medium {

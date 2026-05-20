@@ -27,7 +27,12 @@ async function loadGame(){
          <div class=column>
          <h1>${game.title}</h1> 
          <p class="p-description">${game.description}</p>
-         </div>
+         <br>
+          <div class="p-genres">${game.genres.map(genre =>
+                `<span>${genre}</span>`
+              ).join("")}
+          </div>  
+        </div>
 
       </section>
 
@@ -40,16 +45,27 @@ async function loadGame(){
 
         <div class="game-status-container">
          <div class="status-badges">
-            <h2>Status Geral</h2>          
+            <h2>Status Geral</h2>     
+          <div class="badge-group">     
             ${game.status.played ? '<span class="badge badge-played" title="Played">🎮 Played</span>': ''} 
-            ${game.status.favorite ? '<span class="badge badge-favorite" title="Favorite?">⭐ Favorite</span>': ''} 
-            ${game.status.finished ? '<span class="badge badge-finished" title="Finished?">🏆 Finished</span>': ''}           
-         </div>
+            ${game.status.favorite ? '<span class="badge badge-favorite" title="Favorite">⭐ Favorite</span>': ''} 
+            ${game.status.finished ? '<span class="badge badge-finished" title="Finished">🏆 Finished</span>': ''}           
+          </div>
+        </div>       
         
          <div class="score-circle ${getScoreClass(game.status.score)}" 
            <span>${game.status.score}</span>
          </div>
+        </div>
       </section>
+
+      <section class="game-links">
+        <h2>Links</h2>
+        ${game.links.steam ? `<a href="${game.links.steam}" target="_blank" class="game-link">Steam</a>` : ''}
+        ${game.links.official ? `<a href="${game.links.official}" target="_blank" class="game-link">Site Oficial</a>` : ''}
+      </section>
+
+    
     `;
   
   }
