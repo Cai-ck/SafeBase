@@ -5,9 +5,10 @@
 
       "title": "Left 4 Dead 2",
       
-      "link": "../../pages/gamesPages/left4dead2.html",
+      "link": "pages/gamesPages/left4dead2.html",
 
-      "description": "Jogo de Zumbis em Primeira Pessoa, onde você joga junto com mais 4 pessoas e tentam sobreviver a campanhas desafiadoras, com infectados comuns e especiais que tentaram te impedir de conquista seu objetivo de escapar desse inferno.",
+      "description": "Left 4 Dead 2 é um jogo cooperativo de terror e ação em primeira pessoa da Valve. Ambientado em um apocalipse zumbi, coloca você e seus amigos para lutar por cidades, pântanos e cemitérios do sul dos EUA em campanhas massivas."
+,
 
       "genres": [
         "Zombie",
@@ -23,9 +24,9 @@
         "Xbox"
       ],
 
-      "cover": "./assets/images/capas/Left4Dead2.jpg",
+      "cover": "/site-vitrine/assets/images/capas/Left4Dead2.jpg",
 
-      "banner": "./assets/images/banners/banner-l4d2.jpg",
+      "banner": "/site-vitrine/assets/images/banners/banner-l4d2.jpg",
 
       "steam_appid": "550",
 
@@ -33,9 +34,11 @@
         "played": true,
         "favorite": true,
         "finished": true,
-        "score": 10,
+        "score": 9.5,
 
-        "review": "Um dos melhores jogos de zombies já feitos."
+        "review": "Um dos melhores jogos de zombies já feitos.",
+
+        "reviewlong": "Left 4 Dead 2 é um jogo de zumbis fps cooperativo clássico, mapas grandes e com uma narrativa não intrusiva.\nO foco é na jogabilidade, onde o objetivo é sobreviver a hordas de zumbis e chegar ao final da campanha, gameplay viciante e fluida com fator replay garantido!"
       },
 
       "links": {
@@ -62,6 +65,8 @@
     "title": "Dead Cells",
 
     "link": "./pages/gamesPages/deadcells.html",
+    
+    "description": "",
 
     "genres": [
       "Roguelike",
@@ -119,6 +124,8 @@
 
       "link": "./pages/gamesPages/killingfloor1.html",
 
+      "description": "",
+
       "genres": [
         "Co-op",
         "FPS",
@@ -171,6 +178,8 @@
       "title": "Warhammer Vermintide 2",
 
       "link": "./pages/gamesPages/warhammervermintide2.html",
+
+      "description": "",
 
       "genres": [
         "Co-op",
@@ -225,6 +234,8 @@
 
       "link": "./pages/gamesPages/darksouls3.html",
 
+      "description": "",
+
       "genres": [
         "SoulsLike",
         "PvP",
@@ -277,6 +288,8 @@
       "title": "Devil May Cry 5",
 
       "link": "./pages/gamesPages/devilmaycry5.html",
+
+      "description": "",
 
       "genres": [
         "Hack-and-Slash",
