@@ -26,7 +26,7 @@ html {
 .nav-menu {
   border-radius: 2px;
   font-weight: bold;
-  background-color: var(--primary-color);
+  background-color: #3a1e43;
   display: flex;
   padding: 20px;
   justify-content: center;
@@ -152,8 +152,10 @@ body {
 }
 
 .games-section h2 {
+  font-size: 32px;
+  font-weight: bold;
   color: white;
-  background-color:#3a1e43;
+  background-color:var(--primary-color);
   padding: 10px;
   border-radius: 10px;
   gap: 30px;
@@ -165,10 +167,11 @@ body {
   border-radius: 10px;
   border: 2px solid hsl(281, 100%, 74%);
   background-size: cover;
-  background-color: #3a1e43;
+  background-color: #1f1024;
   grid-template-columns:
     repeat(auto-fill, minmax(225px, 1fr));
     gap: 40px;
+    padding: 20px;
 }
 
 .game-card{

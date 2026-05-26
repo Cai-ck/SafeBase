@@ -1,3 +1,6 @@
+import { cardClick } from "./navigation.js";
+cardClick('#games-container');
+
 fetch("./assets/data/games.json")
 
   .then(response => response.json())
@@ -14,7 +17,7 @@ fetch("./assets/data/games.json")
 
         <div class="game-card">
 
-          <img src="${game.cover}" alt="${game.title}" onclick="irGameDetails()">
+          <img src="${game.cover}" class="cover-click" alt="${game.title}" data-link="${game.link}">
 
           <div class="game-info">
 
