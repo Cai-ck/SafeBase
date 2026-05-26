@@ -119,11 +119,11 @@ html {
 
 .review{
   background-color: rgb(24, 0, 24);
-  width:450px;
+  width: 600px;
   word-wrap: break-word;
   color: white;
-  padding: 20px 20px;
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 2px;
 }
 
 .game-status-container{
@@ -211,4 +211,22 @@ html {
    background-color: #F44336;
    border-color: #D32F2F;
    box-shadow: 0 4px 8px rgba(244, 67, 54, 0.3);
+}
+
+.game-links{
+  background-color: rgb(24, 0, 24);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 20px;
+}
+
+.game-links a{
+  word-wrap: break-word;
+  justify-content: center;
+  font-size: 18px;
+  color: #552d63;
 }
